@@ -6,5 +6,6 @@ namespace Proyecto_IF
 {
     class Vestimenta1
     {
+          public string Nombre { set; get; }
     }
 }

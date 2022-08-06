@@ -8,6 +8,8 @@ namespace Proyecto_IF
     {
           public string Nombre { set; get; }
           public string Apellido {set;get;}
-          public string Cedula {set; get;}
+          public string Cedula {set; get;} 
+          public string TipodeVestimenta { set; get; }
+          public string ColordeVestimenta { set; get; }
     }
 }

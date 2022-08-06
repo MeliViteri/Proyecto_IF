@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ProyectoFinal
 {
-    public class Vestimenta
+    public class Vestimenta1
     {
         //Datos para el comprador
         public string Nombre { set; get; }
@@ -18,11 +18,11 @@ namespace ProyectoFinal
         public string TipodeTela { set; get; }
         public int PreciodeVestimenta { set; get; }
 
-        public Vestimenta()
+        public Vestimenta1()
         {
         }
 
-        public Vestimenta(string nombre, string apellido, string cedula, string tipodeVestimenta, 
+        public Vestimenta1(string nombre, string apellido, string cedula, string tipodeVestimenta, 
             string colordeVestimenta, string marcadeVestimenta, string tipodeTela, int preciodeVestimenta)
         {
             Nombre = nombre;
